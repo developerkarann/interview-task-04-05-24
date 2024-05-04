@@ -1,0 +1,53 @@
+.home {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.home .box {
+    margin: 40px 80px;
+    display: flex;
+    align-items: center;
+}
+
+.home .left img {
+    width: 40rem;
+}
+
+
+.home .right .right_content {
+    max-width: 500px;
+}
+
+.home .right .right_content .heading {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.home .right .right_content .subHeading {
+    font-size: 30px;
+    margin: 10px 0;
+}
+.home .right .form{
+    margin: 50px 0;
+}
+
+.home .right .textField button {
+    padding: 20px 30px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: rgb(42, 42, 255);
+    color: white;
+}
+
+.home .right .textField input {
+    outline: none;
+    border: 1px solid rgb(219, 216, 216);
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 18px;
+}

@@ -1,0 +1,25 @@
+.apiData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.apiData .header{
+  height: 100px;
+  width: 600px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(156, 156, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.apiData .data{
+   margin: 30px 0;
+}
+.apiData .data ul{
+   margin: 10px 0;
+   font-size: 20px;
+   text-transform: uppercase;
+}
